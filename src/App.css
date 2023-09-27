@@ -1,0 +1,81 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  min-width: 99%;
+  min-height: 100vh;
+  font-family: "Helvetica Neue";
+  background-color: #D6D58E;
+
+}
+
+/*
+Dark Blue: #042940;
+Emerald: #005C53;
+Leaf-Green: #9FC131;
+Sap-Green: #DBF227;
+Eggshell: #D6D58E;
+*/
+
+Header{
+  display: flex;
+  justify-content: center;
+  max-height: 100vh;
+  margin-bottom: 5em;
+  background-color: #042940;
+}
+h1{
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #DBF227;
+}
+h3{
+  color: #042940;
+  font-size: 1.2em;}
+
+.longArticle{
+  display: flex;
+  justify-content: center;
+}
+.longArticle article{
+  max-width: 75%;
+}
+p{
+  color: #042940;
+}
+
+/* Stilisiert die Liste der Blog-Einträge */
+.blog-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5em;
+}
+/* Der erste Eintrag hat einen blauen Hintergrund */
+.blog-list div{
+  max-width: 300px;
+  border: 1px solid #9FC131;
+//border-radius: 5px;
+  background-color: #fff;
+}
+.blog-list article{
+  padding: 10px 20px;
+}
+
+.blog-list img{
+  padding: 0;
+}
+
+Footer{
+  margin-top: 5em;
+  padding: 1em 5em;
+  display: flex;
+  justify-content: center;
+  background-color: #042940;
+  color: #DBF227;
+}
+
+Footer a:link, a:visited{
+  color: #DBF227;
+}
+Footer a:hover{
+  color: #9FC131;
+}
